@@ -81,7 +81,7 @@ for dict_idx = 1:length(dictionary_list)
             success_matrix = ones(num_points, num_points);
     
             % Loop over sparsity levels
-            for sparsity_idx = 7:num_points
+            for sparsity_idx = 1:num_points
                 current_sparsity = sparsity_axis(sparsity_idx);
     
                 % Generate signals
